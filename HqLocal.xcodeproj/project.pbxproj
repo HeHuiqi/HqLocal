@@ -8,13 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		33D9E7CA200B683000FC6C99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E7C9200B683000FC6C99 /* AppDelegate.m */; };
-		33D9E7CD200B683000FC6C99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E7CC200B683000FC6C99 /* ViewController.m */; };
+		33D9E7CD200B683000FC6C99 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E7CC200B683000FC6C99 /* HomeVC.m */; };
 		33D9E7D0200B683000FC6C99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E7CE200B683000FC6C99 /* Main.storyboard */; };
 		33D9E7D2200B683000FC6C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E7D1200B683000FC6C99 /* Assets.xcassets */; };
 		33D9E7D5200B683000FC6C99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E7D3200B683000FC6C99 /* LaunchScreen.storyboard */; };
 		33D9E7D8200B683000FC6C99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E7D7200B683000FC6C99 /* main.m */; };
 		33D9E7E2200B683000FC6C99 /* HqLocalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E7E1200B683000FC6C99 /* HqLocalTests.m */; };
 		33D9E7ED200B683000FC6C99 /* HqLocalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E7EC200B683000FC6C99 /* HqLocalUITests.m */; };
+		33D9E800200B6A3100FC6C99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E804200B6A3100FC6C99 /* InfoPlist.strings */; };
+		33D9E801200B6A3100FC6C99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E804200B6A3100FC6C99 /* InfoPlist.strings */; };
+		33D9E802200B6A3100FC6C99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E804200B6A3100FC6C99 /* InfoPlist.strings */; };
+		33D9E80A200B6C3E00FC6C99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E80E200B6C3E00FC6C99 /* Localizable.strings */; };
+		33D9E80B200B6C3E00FC6C99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E80E200B6C3E00FC6C99 /* Localizable.strings */; };
+		33D9E80C200B6C3E00FC6C99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E80E200B6C3E00FC6C99 /* Localizable.strings */; };
+		33D9E818200B729A00FC6C99 /* HqLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E81C200B729A00FC6C99 /* HqLocalizable.strings */; };
+		33D9E819200B729A00FC6C99 /* HqLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E81C200B729A00FC6C99 /* HqLocalizable.strings */; };
+		33D9E81A200B729A00FC6C99 /* HqLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33D9E81C200B729A00FC6C99 /* HqLocalizable.strings */; };
+		33D9E820200B7DB900FC6C99 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E81F200B7DB900FC6C99 /* DetailVC.m */; };
+		33D9E821200B7DB900FC6C99 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E81F200B7DB900FC6C99 /* DetailVC.m */; };
+		33D9E822200B7DB900FC6C99 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E81F200B7DB900FC6C99 /* DetailVC.m */; };
+		33D9E82A200B9ADC00FC6C99 /* HqLocalTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E829200B9ADC00FC6C99 /* HqLocalTool.m */; };
+		33D9E82B200B9ADC00FC6C99 /* HqLocalTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E829200B9ADC00FC6C99 /* HqLocalTool.m */; };
+		33D9E82C200B9ADC00FC6C99 /* HqLocalTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D9E829200B9ADC00FC6C99 /* HqLocalTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +53,8 @@
 		33D9E7C5200B683000FC6C99 /* HqLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HqLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D9E7C8200B683000FC6C99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33D9E7C9200B683000FC6C99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		33D9E7CB200B683000FC6C99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		33D9E7CC200B683000FC6C99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33D9E7CB200B683000FC6C99 /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		33D9E7CC200B683000FC6C99 /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		33D9E7CF200B683000FC6C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33D9E7D1200B683000FC6C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33D9E7D4200B683000FC6C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +66,18 @@
 		33D9E7E8200B683000FC6C99 /* HqLocalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HqLocalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D9E7EC200B683000FC6C99 /* HqLocalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HqLocalUITests.m; sourceTree = "<group>"; };
 		33D9E7EE200B683000FC6C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D9E7FA200B696300FC6C99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		33D9E7FB200B696300FC6C99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		33D9E803200B6A3100FC6C99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33D9E805200B6A4200FC6C99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		33D9E80D200B6C3E00FC6C99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		33D9E80F200B6C4300FC6C99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		33D9E81B200B729A00FC6C99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HqLocalizable.strings; sourceTree = "<group>"; };
+		33D9E81D200B729B00FC6C99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/HqLocalizable.strings"; sourceTree = "<group>"; };
+		33D9E81E200B7DB900FC6C99 /* DetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		33D9E81F200B7DB900FC6C99 /* DetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		33D9E828200B9ADC00FC6C99 /* HqLocalTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HqLocalTool.h; sourceTree = "<group>"; };
+		33D9E829200B9ADC00FC6C99 /* HqLocalTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HqLocalTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +130,20 @@
 			children = (
 				33D9E7C8200B683000FC6C99 /* AppDelegate.h */,
 				33D9E7C9200B683000FC6C99 /* AppDelegate.m */,
-				33D9E7CB200B683000FC6C99 /* ViewController.h */,
-				33D9E7CC200B683000FC6C99 /* ViewController.m */,
+				33D9E7CB200B683000FC6C99 /* HomeVC.h */,
+				33D9E7CC200B683000FC6C99 /* HomeVC.m */,
+				33D9E81E200B7DB900FC6C99 /* DetailVC.h */,
+				33D9E81F200B7DB900FC6C99 /* DetailVC.m */,
 				33D9E7CE200B683000FC6C99 /* Main.storyboard */,
 				33D9E7D1200B683000FC6C99 /* Assets.xcassets */,
 				33D9E7D3200B683000FC6C99 /* LaunchScreen.storyboard */,
 				33D9E7D6200B683000FC6C99 /* Info.plist */,
+				33D9E804200B6A3100FC6C99 /* InfoPlist.strings */,
 				33D9E7D7200B683000FC6C99 /* main.m */,
+				33D9E80E200B6C3E00FC6C99 /* Localizable.strings */,
+				33D9E81C200B729A00FC6C99 /* HqLocalizable.strings */,
+				33D9E828200B9ADC00FC6C99 /* HqLocalTool.h */,
+				33D9E829200B9ADC00FC6C99 /* HqLocalTool.m */,
 			);
 			path = HqLocal;
 			sourceTree = "<group>";
@@ -220,6 +254,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 33D9E7BC200B683000FC6C99;
 			productRefGroup = 33D9E7C6200B683000FC6C99 /* Products */;
@@ -238,8 +273,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D9E80A200B6C3E00FC6C99 /* Localizable.strings in Resources */,
 				33D9E7D5200B683000FC6C99 /* LaunchScreen.storyboard in Resources */,
+				33D9E800200B6A3100FC6C99 /* InfoPlist.strings in Resources */,
 				33D9E7D2200B683000FC6C99 /* Assets.xcassets in Resources */,
+				33D9E818200B729A00FC6C99 /* HqLocalizable.strings in Resources */,
 				33D9E7D0200B683000FC6C99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +286,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D9E801200B6A3100FC6C99 /* InfoPlist.strings in Resources */,
+				33D9E819200B729A00FC6C99 /* HqLocalizable.strings in Resources */,
+				33D9E80B200B6C3E00FC6C99 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +296,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D9E802200B6A3100FC6C99 /* InfoPlist.strings in Resources */,
+				33D9E81A200B729A00FC6C99 /* HqLocalizable.strings in Resources */,
+				33D9E80C200B6C3E00FC6C99 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D9E7CD200B683000FC6C99 /* ViewController.m in Sources */,
+				33D9E82A200B9ADC00FC6C99 /* HqLocalTool.m in Sources */,
+				33D9E7CD200B683000FC6C99 /* HomeVC.m in Sources */,
+				33D9E820200B7DB900FC6C99 /* DetailVC.m in Sources */,
 				33D9E7D8200B683000FC6C99 /* main.m in Sources */,
 				33D9E7CA200B683000FC6C99 /* AppDelegate.m in Sources */,
 			);
@@ -276,6 +322,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				33D9E7E2200B683000FC6C99 /* HqLocalTests.m in Sources */,
+				33D9E82B200B9ADC00FC6C99 /* HqLocalTool.m in Sources */,
+				33D9E821200B7DB900FC6C99 /* DetailVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +332,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				33D9E7ED200B683000FC6C99 /* HqLocalUITests.m in Sources */,
+				33D9E82C200B9ADC00FC6C99 /* HqLocalTool.m in Sources */,
+				33D9E822200B7DB900FC6C99 /* DetailVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +357,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				33D9E7CF200B683000FC6C99 /* Base */,
+				33D9E7FA200B696300FC6C99 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -315,8 +366,36 @@
 			isa = PBXVariantGroup;
 			children = (
 				33D9E7D4200B683000FC6C99 /* Base */,
+				33D9E7FB200B696300FC6C99 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		33D9E804200B6A3100FC6C99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D9E803200B6A3100FC6C99 /* en */,
+				33D9E805200B6A4200FC6C99 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33D9E80E200B6C3E00FC6C99 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D9E80D200B6C3E00FC6C99 /* zh-Hans */,
+				33D9E80F200B6C4300FC6C99 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		33D9E81C200B729A00FC6C99 /* HqLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D9E81B200B729A00FC6C99 /* en */,
+				33D9E81D200B729B00FC6C99 /* zh-Hans */,
+			);
+			name = HqLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -326,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -381,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -432,6 +513,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HqLocal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hhq.HqLocal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +527,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HqLocal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hhq.HqLocal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
