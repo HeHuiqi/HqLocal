@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title =  HQLocalizedString(@"hq_home");
-    self.title =  HQLocalizedStringFromTable(@"hq_home", @"HqLocalizable");
+//    self.title =  HQLocalizedStringFromTable(@"hq_home", @"HqLocalizable");
 }
 
 

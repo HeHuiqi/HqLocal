@@ -60,6 +60,7 @@
     UINavigationController *rootNav = [storyBoard instantiateViewControllerWithIdentifier:@"root"];
     app.window.rootViewController = rootNav;
     [app.window makeKeyAndVisible];
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
