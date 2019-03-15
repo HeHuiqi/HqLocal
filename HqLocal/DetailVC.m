@@ -46,11 +46,14 @@
         lanuage = @"zh-Hans";
     }
     HQSetLanguage(lanuage);
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"languageChange" object:nil];
+
     
     NSString *language = HQGetLanguage();
     NSLog(@"模拟器语言切换之后：%@",language);
-    [self resetRootViewController];
-    [self.navigationController popViewControllerAnimated:YES];
+//    [self resetRootViewController];
+//    [self.navigationController popViewControllerAnimated:NO];
+    
 }
 //重新设置
 -(void)resetRootViewController
